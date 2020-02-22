@@ -1,0 +1,66 @@
+body {
+    margin-top: 0;
+    background-image: url("/img/home.png");
+    background-repeat: no-repeat;
+     background-position: center;
+    
+    background-size: 90% 100%;
+    
+  
+    
+   
+    
+  }
+
+  .navbar {
+
+    background-color: white;
+    padding: 0 2vw 0 12vw;
+
+    
+
+
+
+    
+  }
+
+  .navbar-brand{
+
+    margin-left: 20px;
+
+
+  }
+
+  #signup {
+
+    padding: 0 40px 0 40px;
+  }
+
+  .modal {
+
+    z-index: 5000;
+  }
+
+  .form-control {
+
+
+    margin-bottom: 20px;
+  }
+
+  .model-header:{
+
+    border-bottom: 0px;
+  }
+
+  .centrar{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+
+
+  }
