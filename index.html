@@ -36,34 +36,28 @@
     <!-- YOUR STYLES COME LAST SINCE YOU DON'T WANT IT TO BE OVERWRITTEN WITH THE BOOTSTRAP CSS -->
     <link rel="stylesheet" href="./styles/style.css" />
 
-    <!-- <script >
+    <script >
+      
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      });
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-}
- </script> -->
-
-
+ </script>
 
     <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#"><img src="./img/LOGO.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ">
-                
-              
-                
-               
               </ul>
               <form class="form-inline my-2 my-lg-6">
                 <input class="form-control mr-sm-0" style="width: 700px; margin-bottom: 0px;" type="search" placeholder="Search" aria-label="Search">
-                
+
               </form>
 
-              <button class="btn btn-primary my-2 my-sm-0" id="myInput" style="background-color: #9c794f; border: inherit;     margin-left: 10px;
+              <button class="btn btn-primary my-2 my-sm-0" data-toggle="tooltip" data-placement="bottom" data-html="true" title="New user? Save time by signing up now." id="myInput" style="background-color: #9c794f; border: inherit;     margin-left: 10px;
               width: 120px;"type="submit" data-toggle="modal" data-target="#basicExampleModal">Sign up</button>
 
               <img src="./img/cart.png">
